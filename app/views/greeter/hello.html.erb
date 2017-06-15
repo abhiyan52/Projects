@@ -1,5 +1,6 @@
 <h1>Greeter#hello</h1>
 <p>Find me in app/views/greeter/hello.html.erb</p>
 <% person=["ABHIYAN","SULAB","BIPUL"]  %>
-<h2>WELCOME MR <%= person.sample  %></h2>
-<h3>THE TIME IS <%=Time.now%></h3>
+<h2>WELCOME MR <%=@names.sample  %></h2>
+<h3>THE TIME IS <%=@time%></h3>
+<h4>THE TIMES DISPLAY <%= @times_visted%></h4>
